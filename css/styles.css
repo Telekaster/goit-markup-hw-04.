@@ -11,6 +11,7 @@ html {
   --background-color-grey: #f5f4fa;
   --nav-border: #ececec;
   --portfolio-border: #eeeeee;
+  --icons-color: #afb1b8;
 }
 
 h1,
@@ -206,7 +207,7 @@ footer {
 
 /* Наша команда */
 .team-discrip {
-  padding: 5px 10px 30px 10px;
+  padding: 5px 10px 16px 10px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -413,6 +414,40 @@ footer {
 
 .header-line {
   display: block;
-  border: #2196f3;
+  border: var(--brandcolor);
   border-bottom: 1px solid var(--nav-border);
+}
+
+.social-list {
+  display: inline-flex;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+}
+
+.social-list-item:not(:last-child) {
+  padding-right: 10px;
+}
+
+.social-list-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+
+.social-list-item-link:hover .social-icon {
+  fill: var(--background-color-white);
+}
+
+.social-list-item-link:hover {
+  background-color: var(--brandcolor);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icons-color);
 }
