@@ -133,11 +133,14 @@ footer {
 }
 
 .header-mailtel {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+
 }
 
 /* Список */
@@ -315,6 +318,7 @@ footer {
 .list-phone {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .list-phone-item:not(:last-child) {
@@ -554,4 +558,18 @@ footer {
 .skills-icons {
   width: 70px;
   height: 70px;
+}
+
+.envelope-icon {
+  width: 16px;
+  height: 12px;
+  stroke: currentColor;
+  margin-right: 10px;
+}
+
+.phone-icon {
+  width: 10px;
+  height: 16px;
+  stroke: currentColor;
+  margin-right: 10px;
 }
