@@ -220,6 +220,7 @@ footer {
 
 .logo-revers {
   display: block;
+  margin-right: 156px;
   padding-bottom: 20px;
   font-family: Raleway;
   font-weight: bold;
@@ -486,4 +487,54 @@ footer {
 
 .clients-list-item-link:hover .clients-list-item-icon {
   fill: var(--brandcolor);
+}
+
+.footer-class {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-address {
+  display: block;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  width: 206px
+  height: 80px;
+}
+
+.footer-socials-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-socials-icons-list:not(:last-child) {
+  padding-right: 10px;
+}
+
+.social-list-item-link-footer {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-item-link-footer:hover,
+.social-list-item-link-footer:target {
+  background: var(--brandcolor) ;
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--background-color-white);
+}
+
+.join-us {
+  color: var(--background-color-white)
 }
