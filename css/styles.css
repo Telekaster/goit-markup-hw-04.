@@ -538,3 +538,20 @@ footer {
 .join-us {
   color: var(--background-color-white)
 }
+
+.antenna {
+  
+  width: 270px;
+  height: 120px;
+  background: var(--background-color-grey);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.skills-icons {
+  width: 70px;
+  height: 70px;
+}
