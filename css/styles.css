@@ -35,6 +35,12 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
+}
+
+.link-cards {
+  text-decoration: none;
+  color: inherit;
 }
 
 .link:hover,
@@ -335,7 +341,11 @@ footer {
   padding-top: 200px;
   padding-bottom: 200px;
   background: var(--background-color);
-  /* height: 600px; */
+  background-image: url(../images/background-image.jpg); 
+  background:linear-gradient(rgba(47, 48, 58, 0,4));
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
 }
 
 /* Наши сильные стороны */
@@ -372,6 +382,7 @@ footer {
 .list-card-item {
   background-color: var(--background-color-white);
   flex-basis: calc((100% - 90px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-names {
@@ -399,6 +410,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 
 .portfolio-list-item {
@@ -406,10 +418,17 @@ footer {
   flex-basis: calc((100% - 60px) / 3);
 }
 
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
 .portfolio-list-text {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
+  color: var(--main-text-color);
 }
 
 .border {
