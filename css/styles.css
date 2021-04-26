@@ -109,6 +109,8 @@ footer {
 /* Логотип */
 .logo {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -477,8 +479,6 @@ footer {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--icons-color);
 }
 
@@ -493,8 +493,6 @@ footer {
 
 .clients-list-item-icon {
   display: flex;
-  width: 106px;
-  height: 60px;
   fill: var(--icons-color);
 }
 
@@ -558,8 +556,8 @@ footer {
 }
 
 .footer-social-icon {
-  width: 20px;
-  height: 20px;
+  /* width: 20px;
+  height: 20px; */
   fill: var(--background-color-white);
 }
 
@@ -580,20 +578,15 @@ footer {
 }
 
 .skills-icons {
-  width: 70px;
-  height: 70px;
+  
 }
 
 .envelope-icon {
-  width: 16px;
-  height: 12px;
   stroke: currentColor;
   margin-right: 10px;
 }
 
 .phone-icon {
-  width: 10px;
-  height: 16px;
   stroke: currentColor;
   margin-right: 10px;
 }
